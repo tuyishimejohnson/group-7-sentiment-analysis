@@ -31,7 +31,6 @@ This project focuses on sentiment analysis using the IMDB Movie Reviews dataset.
    pip install -r requirements.txt
    ```
 3. Open and run the Colab notebook:
-   - Link: [Colab Notebook](https://colab.research.google.com/your-notebook-link)
 
 ### Running the Models
 - Execute the notebook cells step by step.
