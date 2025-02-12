@@ -11,10 +11,15 @@ This project focuses on sentiment analysis using the IMDB Movie Reviews dataset.
  ## Preprocessing
 
 Text data is rarely "clean" when it comes straight from the source. To prepare it for machine learning and deep learning, we followed these steps:
+
 ✔ Removing special characters, HTML tags, and punctuation – to keep only useful words.
+
 ✔ Tokenization and padding– breaking down sentences into individual words. This step helps in creating input sequences for the models. A padding sequence function is also used to ensure that all sentences have the same length. In this project, it is crucial for handling variable-length input and enables efficient batch processing.
+
 ✔ Stopword Removal – filtering out common words like "the," "is," and "a" that don’t contribute to sentiment.
+
 ✔ Lemmatization – reducing words to their root forms (e.g., "running" → "run").
+
 ✔ Word Embeddings – converting words into numerical vectors (TF-IDF for ML models, Word2Vec for DL models)
 
 ## Models Implemented
