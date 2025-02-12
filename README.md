@@ -36,6 +36,14 @@ Text data is rarely "clean" when it comes straight from the source. To prepare i
 
 ## Performance 
 
+| Model              | Accuracy | Precision | Recall | F1-Score |
+|--------------------|----------|-----------|--------|----------|
+| Logistic Regression| 0.8849   | 0.89      | 0.88   | 0.88     |
+| Naïve Bayes        | 0.8516   | 0.85      | 0.85   | 0.85     |
+| RNN                | 0.815    | 0.87      | 0.74   | 0.80     |
+| LSTM               | 0.819    | 0.88      | 0.73   | 0.80     |
+| GRU                | 0.835    | 0.83      | 0.84   | 0.84     |
+
 Logistic Regression was the most effective model for classifying IMDB reviews, achieving the highest accuracy (88.49%), precision (89%), and recall (88%), outperforming deep learning models. Naïve Bayes also performed well with 85.16% accuracy but struggled to capture sentiment nuances due to its assumption of word independence. Among deep learning models, GRU achieved the best performance with 83.5% accuracy and the highest recall (84%), while LSTM and RNN underperformed with recall values of 73% and 74%, respectively. The results suggest that deep learning models, despite their ability to capture sequential data, did not outperform simpler models, likely due to the small dataset size.
 
 ## How to Use
