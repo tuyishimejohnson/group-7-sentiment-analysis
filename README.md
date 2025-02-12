@@ -27,7 +27,6 @@ Text data is rarely "clean" when it comes straight from the source. To prepare i
 
 - **Logistic Regression** (TF-IDF features)
 - **Naïve Bayes** (TF-IDF features)
-- **SVM** (Unfortunately we didn't experiment on it as It was taking too much time to understand and optimize. We plan to try it next time when we have enough time to analyze its performance and fine-tuning it properly.)
 
 ### Deep Learning Models
 - **RNN**
