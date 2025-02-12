@@ -46,6 +46,10 @@ Text data is rarely "clean" when it comes straight from the source. To prepare i
 
 Logistic Regression was the most effective model for classifying IMDB reviews, achieving the highest accuracy (88.49%), precision (89%), and recall (88%), outperforming deep learning models. Naïve Bayes also performed well with 85.16% accuracy but struggled to capture sentiment nuances due to its assumption of word independence. Among deep learning models, GRU achieved the best performance with 83.5% accuracy and the highest recall (84%), while LSTM and RNN underperformed with recall values of 73% and 74%, respectively. The results suggest that deep learning models, despite their ability to capture sequential data, did not outperform simpler models, likely due to the small dataset size.
 
+## Conclusion
+
+This project gave us some deeper perspective on the trade-offs between traditional ML and deep learning for sentiment analysis showing that while deep learning is effective and powerful, in many cases traditional models can still hold their own against deep learning while being very efficient and interpretable.
+
 ## How to Use
 ### Setup
 1. Clone the repository:
