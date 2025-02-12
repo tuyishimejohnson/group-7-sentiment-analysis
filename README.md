@@ -80,4 +80,6 @@ This project gave us some deeper perspective on the trade-offs between tradition
 ## References
 - [AWS Sentiment Analysis](https://aws.amazon.com/what-is/sentiment-analysis/)
 - [IMDB Movie Reviews Dataset](https://www.kaggle.com/code/lakshmi25npathi/sentiment-analysis-of-imdb-movie-reviews)
+- [GRU Tensorflow documentation](https://www.tensorflow.org/api_docs/python/tf/keras/layers/GRU)
+- [Logistic regression documentation on Scikit-learn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
 
